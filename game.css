@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url(/media/ocean.jpeg);
+    background-size: contain;
+    background-size: cover;
+    /* background-image: linear-gradient(to bottom right, yellow, rgb(21,150,255)
+    ); */
+    background-repeat: no-repeat; 
+    text-align: center;
+    align-items: center;
+}
+
+.gamePage{
+    /* width: fit-content;
+    height: fit-content; */
+    text-align: center;
+}
+
+h1 {
+    color:white ;
+    font-weight: 800;
+}
+
+p {
+    font-weight: 800;
+}
+
+.startImage{
+    width: 100%;
+    height: 100%;
+    
+}
+
+
+.images{
+    width: 100%;
+    height: fit-content;
+}
+
+.startButton {
+    border: 2px solid rgb(252, 248, 3);
+    color: white;
+    background-color: rgb(21, 150, 255);
+    border-radius: 20px;
+
+}
+
+.button{
+    border: 2px solid yellow;
+    color: white;
+    background-color: rgb(21, 150, 255);
+    border-radius: 20px;
+    align-items: center;
+    
+}
+
